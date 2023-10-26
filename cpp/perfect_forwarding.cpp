@@ -37,7 +37,7 @@ void always_lvalue(int&& a) {
     std::cout << std::boolalpha;
     std::cout << "The type of a: " << type_id_with_cvr<decltype(a)>() << '\n';
     std::cout << "The value catogory of a: " << type_id_with_cvr<decltype((a))>() << '\n';
-    std::cout << "The value catogory of a is lvalue: " << type_id_with_cvr<decltype((a))> << '\n';
+    std::cout << "The value catogory of a is lvalue: " << type_id_with_cvr<decltype((a))>() << '\n';
     f(a);
 }
 

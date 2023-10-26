@@ -5,3 +5,6 @@ add_executable(perfect_forwarding perfect_forwarding.cpp)
 target_link_libraries(perfect_forwarding PRIVATE Boost::boost)
 
 add_executable(scoped_enumerations scoped_enumerations.cpp)
+
+add_executable(thread_safe_counter thread_safe_counter.cpp)
+target_link_libraries(thread_safe_counter pthread)
