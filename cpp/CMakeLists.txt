@@ -8,3 +8,7 @@ add_executable(scoped_enumerations scoped_enumerations.cpp)
 
 add_executable(thread_safe_counter thread_safe_counter.cpp)
 target_link_libraries(thread_safe_counter pthread)
+
+add_executable(concurrency1 concurrency1.cpp)
+target_link_libraries(concurrency1 pthread)
+

@@ -1,6 +1,6 @@
 {
     "cmake.configureSettings": {
-        "CMAKE_TOOLCHAIN_FILE": "/home/codespace/vcpkg/scripts/buildsystems/vcpkg.cmake",
+        "CMAKE_TOOLCHAIN_FILE": "/home/aniu/vcpkg/scripts/buildsystems/vcpkg.cmake",
     },
     "cmake.debugConfig": {
         "args": []
